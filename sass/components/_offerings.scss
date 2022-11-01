@@ -1,0 +1,420 @@
+//  Mobile
+ .offerings {
+     
+padding-top:50px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 60px;
+background-color: white;
+    
+ background-image: url(../../image/offerings/Rectangle320m.png);
+        @include retina {
+                background-image:
+                    url(../../image/offerings/Rectangle320m@2x.png);
+            }
+            @media screen and(min-width:480px)  {
+        background-image: url(../../image/offerings/Rectangle480m@1x.png);
+        @include retina {
+                background-image:
+                    url(../../image/offerings/Rectangle480m@2x.png);
+            }
+            }
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+ &__title {
+
+    
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.18;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top:60px;
+        margin-bottom:28px ;
+        color: #2C2C2C;
+     }
+
+     &__text {
+
+        
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+         margin-bottom: 28px;
+         color: #2C2C2C;
+     }
+
+     &__list {
+       
+         margin-bottom: 32px;
+
+     }
+
+     &__btn {
+         display: inline-block;
+         padding: 10px 22px;
+         font-family: Roboto;
+         font-size: 13px;
+         font-weight: 500;
+         line-height: 1.54;
+         letter-spacing: 0em;
+         text-align: left;
+         border-radius: 30px;
+         border: 2px solid #7EB101;
+     }
+ 
+
+ &__icon {
+     display: inline-block;
+     text-align: left;
+     margin-bottom: 8px;
+ }
+
+ &__subtitle {
+     margin-bottom: 16px;
+     // max-width: 124px;
+     max-width: 130px;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 1.39;
+     letter-spacing: 0em;
+     text-align: left;
+     
+     color: #2C2C2C;
+
+ }
+
+ &__description {
+     max-width: 253px;
+
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.5;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #2C2C2C;
+     margin-bottom: 28px;
+ }
+
+
+ 
+}
+.mobile-extention {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 24px;
+}
+//  Tablet
+ @media screen and(min-width:768px) {
+ .offerings {
+     
+      margin-top: -141px;
+      padding-top: 141px;
+
+      padding-bottom: 100px;
+      padding-left: 32px;
+      padding-right: 32px;
+
+     background-color: white;
+
+    background-image: url(../../image/offerings/Rectangle718t.png);
+    
+        @include retina {
+            background-image:
+                url(../../image/offerings/Rectangle718t@2x.png);
+        }
+     background-size: contain;
+     background-position:unset;
+     background-repeat: no-repeat;
+     //  background-color: #FFE550;
+
+
+     &__title {
+
+          
+        
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0em;
+            text-align: left;
+         color: #2C2C2C;
+         max-width: 525px;
+         margin-bottom: 20px;
+     }
+
+     &__text {
+
+
+      
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.19;
+            letter-spacing: 0em;
+            text-align: left;
+         color: #2C2C2C;
+         max-width: 500px;
+         margin-bottom: 40px;
+     }
+
+     &__list {
+          display: flex;
+        //   justify-content: space-;
+         align-items: center;
+         margin-bottom: 32px;
+
+     }
+     &__item:last-child {
+        margin: 0 auto;
+     }
+
+     &__btn {
+         display: inline-block;
+         padding: 10px 22px;
+         font-family: Roboto;
+         font-size: 13px;
+         font-weight: 500;
+         line-height: 1.54;
+         letter-spacing: 0em;
+         text-align: left;
+         border-radius: 30px;
+         border: 2px solid #7EB101;
+     }
+ 
+
+ &__icon {
+     display: inline-block;
+     text-align: left;
+     margin-bottom: 8px;
+ }
+
+&__subtitle {
+     margin-bottom: 16px;
+     // max-width: 124px;
+    ;
+   
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0em;
+        text-align: left;
+
+     color: #2C2C2C;
+
+ }
+
+&__description {
+    //  max-width: 253px;
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.14;
+        letter-spacing: 0em;
+        text-align: left;
+     color: #2C2C2C;
+     margin-bottom: 40px;
+ }
+
+
+//  .offerings-box {
+//      margin: 0 auto;
+//      // padding-top:53px;
+//      // vertical-align: bottom;
+
+//  }
+
+}
+//  .mobile-extention {
+//      display: inline-block;
+//      font-size: 14px;
+//      font-weight: 400;
+//      line-height: 1.43;
+//      letter-spacing: 0em;
+//      text-align: left;
+//      margin-left: 24px;
+//  }
+}
+// Desktop
+ @media screen and(min-width:1280px) {
+
+ 
+.offerings{
+// Option one 
+    // margin-top:-63px;
+
+    
+    // padding-bottom:100px;
+    // padding-left: 16px;
+    // padding-right: 16px;
+   
+   
+   
+ 
+    // background-color:#FFE550;
+   
+    
+
+    
+    
+   
+    // background-size:cover;
+  
+    // Option 2
+    // display: flex;
+    //         justify-content: flex-start;
+    //         align-items: center;
+    margin-top:-141px;
+    padding: 260px 16px 43px 16px;
+   
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        
+    
+        background-color:white;
+        // background-image: url(../../image/icons.svg#icon-Rectangle-694);
+        background-image: url(../../image/offerings/Rectangle694d.png);
+        
+            @include retina {
+                background-image:
+                    url(../../image/offerings/Rectangle694d@2x.png);
+                    
+            }
+        // background-size:cover;
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        // background-position: top;
+        // Option 3
+        // display: flex;
+        //     justify-content: flex-start;
+        //     align-items: center;
+        //     margin-top: -141px;
+        //         padding: 141px;
+            
+        //         padding-bottom: 100px;
+        //         padding-left: 16px;
+        //         padding-right: 16px;
+            
+        //         background-color:white;
+                
+        //         background-image: url(../../image/offerings/Rectangle\ cut.png);
+        //         background-size: contain;
+        //         background-repeat: no-repeat;
+        //         background-color: #FFE550;
+               
+                
+    &__title{
+       
+font-size: 42px;
+font-weight: 700;
+line-height: 1.19;
+letter-spacing: 0em;
+text-align: left;
+max-width: 526px;
+margin-bottom: 20px;
+margin-top: 0px;
+color:#2C2C2C;
+    }
+          &__text {
+            
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0em;
+                text-align: left;
+                max-width: 500px;
+                margin-bottom: 40px;
+                color: #2C2C2C;
+          }
+                        &__list {
+                            display: flex;
+                            max-width: 100%;
+                            justify-content: space-between;
+                            // align-items: center;
+                            margin-bottom: 32px;
+
+                        }
+                                                &__item:last-child {
+                                                    margin: 0
+                                                }
+                       
+                        &__btn{
+                            display: inline-block;
+padding: 10px 22px;
+font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.54;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 30px;
+    border: 2px solid #7EB101;
+                        }
+                    
+
+    &__icon{
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    &__subtitle{
+        margin-bottom: 16px;
+        // max-width: 124px;
+    max-width: 130px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.39;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #2C2C2C;
+       
+    }
+           &__description {
+               max-width: 253px;
+            
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #2C2C2C;
+           }}
+                   .mobile-extention {
+                       display: none;
+                   }
+                                   .offerings-box{
+                                       margin: 0 auto;
+                                       // padding-top:53px;
+                                       // vertical-align: bottom;
+                
+                                   }
+        //    .offerings__img{
+        //     display: inline-block;
+        //     // text-align:end;
+        //     // position: absolute;
+        //     //     top: 0;
+        //     //     left: 0;
+        //     // padding-top:53px;
+        //    }
+
+// .offerings-wrapper{
+    
+
+//     background-color: #FFE550;
+//     position: relative;
+//     z-index: 0;
+    
+    
+// }
+
+ }

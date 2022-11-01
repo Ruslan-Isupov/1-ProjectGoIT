@@ -1,0 +1,79 @@
+// Option one for section offerings
+// .hero-box{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 20px  16px 100px 16px;
+    
+//     z-index: 2;
+//     background-image: url(../../image/offerings/Rectangle\ cut.png);
+//     background-position-y: 400px ;
+//     background-size: cover;
+    
+// }
+//  @media screen and(min-width:1280px) {
+  
+ 
+.hero-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px 0 16px;
+    // padding: 20px 16px 100px 16px;
+    
+    
+}
+.hero{
+   
+    &__title{
+        max-width: 502px;
+font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1,2;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 28px;
+    
+    }
+    &__text{
+        max-width: 502px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+    }
+    &__img{
+        
+         
+            border-radius: 269px;
+            border-color: orange;
+           
+    }
+    &__btn{
+        
+            padding: 6px 18px;
+            border-radius: 30px;
+            background: #BBF330;
+                font-size: 13px;
+                    font-weight: 500;
+                    line-height: 1, 54;
+                    letter-spacing: 0em;
+                    text-align: right;
+    }
+}
+.img-box{
+    width:528px ;
+    height:528px;
+    border:26px solid #FFE550;
+    border-radius: 50%;
+    @media screen and(min-width:768px) and(max-width:1279px) {
+        width: 336px;
+        height: 320px;
+        border: 14px solid #FFE550
+    }
+}
+//  }

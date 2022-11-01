@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectGoIT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+ <header class="header container">
+    <a class="logo" href="index.html">
+<svg class="logo__icon" width="66" height="52">
+    <use href="./image/icons.svg#logo">
+</use>
+</svg>
+    </a>
+   <div class="nav-box">
+        <nav>
+            <ul class="nav list">
+                <li class="nav__item"><a href="#home" class=" nav__link link current">Home</a></li>
+                <li class="nav__item"><a href="#about" class=" nav__link link">About</a></li>
+                <li class="nav__item"><a href="#service" class=" nav__link link">Service</a></li>
+                <li class="nav__item"><a href="#menu" class="nav__link link"> Menu</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link link">Contact</a></li>
+            </ul>
+        </nav>
+    <button class="nav__btn" type="submit">Order Now</button>
+    </div>
+ </header>
+ <main>
+    <section class="hero-box  container" id="home">
+        <div class="hero">
+<h1 class="hero__title">Enjoy Your Favorite Food From Anywhere</h1>
+<p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+<button type="submit" class="hero__btn ">Order Now</button>
+</div>
+<div class="img-box">
+<img class="hero__img" src="./image/hero/hero.jpg" alt="apple"  >
+</div>
+    </section>
+    <!-- My section is offerings -->
+    <section class="offerings  container" id="about">
+        <picture>
+            <source srcset="./image/offerings/appled.png 1x ,
+                                    ./image/offerings/appled@2x.png 2x" media="(min-width:1280px)" />
+        
+            <source srcset="./image/offerings/apple1t.png 1x ,
+                                            ./image/offerings/Apple1t@2x.png 2x" media="(min-width:768px)" />
+            <source srcset="./image/offerings/applem.png 1x ,
+                                      ./image/offerings/applem@2x.png 2x" media="(max-width:767px)" />
+            <img class="offerings__img" src="./image/offerings/applem.png" alt="apple">
+        </picture>
+        <!-- <div class="offerings-wrapper"> -->
+      
+        <!-- <img class="offerings__img" src="./image/offerings/Apple m.png" alt="apple" width="280" height="309"> -->
+<!-- <img class="offerings__img" src="./image/offerings/Apple m.png" alt="apple" width="280" height="309"> -->
+
+<!-- <img  class="offerings__img" src="./image/offerings/Group 82.png" alt="apple" width="550" height="607">  -->
+        
+        <div class="offerings-box">
+        <h2 class="offerings__title">What’s Special About Our Offerings</h2>
+        <p class="offerings__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis
+        cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+      
+        <ul class="offerings__list list">
+            <li class="offerings__item">
+            <svg class="offerings__icon" width="48" height="48">
+<use href="./image/icons.svg#icon-Icon-Deliv"></use>
+            </svg>
+            <h3 class="offerings__subtitle">Fasest Delivery</h3>
+            <p class="offerings__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p></li>
+            <li class="offerings__item">
+            <svg class="offerings__icon" width="48" height="48" ><use href="./image/icons.svg#icon-Icon-Order"></use></svg>
+            <h3 class="offerings__subtitle">Easy To Order</h3>
+            <p class="offerings__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p></li>
+           
+        </ul>
+        <button type="submit" class="offerings__btn">Order Now</button>
+        <p class="mobile-extention">Read More</p>
+        </div>
+        <!-- </div> -->
+    </section>
+    <!-- Ending of offerings section -->
+    <section class="menu section container" id="menu">
+    <h2 class="menu__title">Some of Our Favorites</h2>
+    <p class="menu__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <ul class="menu__list list">
+    <li class="menu__item"><img class="menu__img" src="./image/menu/gamburger.jpg" alt="" ></li>
+    <li class="menu__item"><img class="menu__img" src="./image/menu/Pasta.jpg" alt=""></li>
+    <li class="menu__item"><img class="menu__img" src="./image/menu/pizza.jpg" alt="" ></li>
+    <li class="menu__item"><img class="menu__img" src="./image/menu/chicken.jpg" alt="" ></li>
+    <li class="menu__item"><img class="menu__img" src="./image/menu/salat.jpg" alt="" ></li>
+    <li class="menu__item"><img class="menu__img" src="./image/menu/borshch.jpg" alt="" ></li>
+    </ul>
+</section>
+
+<!-- <section class="customers section container">
+<h2 class="customers__title">What our Customers Say</h2>
+<p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<ul class="customers__list list">
+    <li class="customers__item"><svg class="customers__icon">
+        <use href="./image/icons.svg#icon-Vector-4"></use>
+    </svg>
+    <svg class="customers__icon">
+        <use href="./image/icons.svg#icon-Vector-4"></use>
+    </svg>
+    <svg class="customers__icon">
+        <use href="./image/icons.svg#icon-Vector-4"></use>
+    </svg>
+    <svg class="customers__icon">
+        <use href="./image/icons.svg#icon-Vector-4"></use>
+    </svg>
+    <svg class="customers__icon">
+        <use href="./image/icons.svg#icon-Vector-4"></use>
+    </svg>
+<p>“The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind,
+No questions asked”</p>
+<div>
+    <svg><use></use></svg>
+<h3>Sumith Shah</h3>
+<p>Some Dude</p>
+</div>
+
+</li>
+
+    <li class="customers__item">
+        <svg class="customers__icon">
+            <use href="./image/icons.svg#icon-Vector-4"></use>
+        </svg>
+        <svg class="customers__icon">
+            <use href="./image/icons.svg#icon-Vector-4"></use>
+        </svg>
+        <svg class="customers__icon">
+            <use href="./image/icons.svg#icon-Vector-4"></use>
+        </svg>
+        <svg class="customers__icon">
+            <use href="./image/icons.svg#icon-Vector-4"></use>
+        </svg>
+        <svg class="customers__icon">
+            <use href="./image/icons.svg#icon-Vector-4"></use>
+        </svg>
+        <p>““The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering
+        from this app”</p>
+        <div>
+            <svg>
+                <use></use>
+            </svg>
+            <h3>Sumith Shah</h3>
+            <p>Some Dude</p>
+        </div>
+    </li>
+   
+</ul>
+</section> -->
+   <footer>
+    <a href=""></a>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </ul>
+   </footer>
+ </main>
+</body>
+</html>
